@@ -2,7 +2,6 @@ var toc = require('marked-toc');
 
 module.exports = {
   book: {
-    assets: "./book"
   },
   hooks: {
     "page:before": function(page) {
