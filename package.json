@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-toc",
   "description": "Add table of content to page",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "gitbook": "*"
   },
@@ -16,7 +16,7 @@
     "url": "https://github.com/whzhyh/gitbook-plugin-toc/issues"
   },
   "dependencies": {
-    "markdown-toc-gitbook": "^0.11.0"
+    "markdown-toc": "^0.11.0"
   },
   "keywords": [
     "gitbook",
