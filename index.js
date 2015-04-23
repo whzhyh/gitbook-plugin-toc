@@ -1,4 +1,4 @@
-var toc = require('marked-toc');
+var toc = require('markdown-toc-gitbook');
 const template = require('./node_modules/marked-toc/node_modules/template');
 
 module.exports = {
