@@ -9,7 +9,6 @@ module.exports = {
 					return encodeURI(str.toLowerCase()).replace(/%20/g, '-');
 				}
 			});
-			console.log(this.options);
 			if (this.options.pluginsConfig.toc.addClass) {
 				var className = this.options.pluginsConfig.toc.className || 'toc';
 				page.content = page.content + '\n\n\n<script type="text/javascript">var targetUl = document.getElementsByClassName(\'page-inner\')[0].getElementsByTagName(\'ul\')[0];if(targetUl.getElementsByTagName(\'a\').length>0){targetUl.className=\'' + className + '\';}</script>';
