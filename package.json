@@ -22,5 +22,8 @@
     "gitbook",
     "plugin"
   ],
-  "author": "Hongzheng Wang <whzhyh@gmail.com>"
+  "author": "Hongzheng Wang <whzhyh@gmail.com>",
+  "contributors": [
+    "Haris Khan <hk12@live.ca>"
+  ]
 }
